@@ -103,74 +103,78 @@ Project/tutorial books without numbered editions (Arduino projects, hacking guid
 A curated reading list for an AI engineer who wants to shore up first-principles depth rather than framework-of-the-month knowledge. The bet here: specific libraries, prompting tricks, and even model architectures go stale fast — the math, computation theory, and classic texts on intelligence itself don't. If AGI does arrive, this is the kind of understanding that stays useful on the other side of it.
 
 **Status column:** ✅ already in this repo (see the table/folder above) · 🆕 recommended, not yet sourced — track down and add separately.
+**Builds on:** the book (by author) this one most directly assumes — read in that order where practical; "—" means it's a reasonable place to start on its own.
 
 ### Mathematical Bedrock
-| Book | Author | Why it matters | Status |
-|---|---|---|---|
-| Introduction to Linear Algebra | Strang | Geometric intuition for the linear algebra every model is built on | ✅ |
-| Linear Algebra Done Right | Axler | Proof-based treatment — forces first-principles understanding over "just compute it" | ✅ |
-| Calculus (proof-based) | Spivak | Rigor and proof technique, not just computation — trains the muscle for reading papers | ✅ |
-| Principles of Mathematical Analysis | Rudin | Real analysis rigor — the discipline behind convergence, limits, and optimization guarantees | ✅ |
-| An Introduction to Probability Theory and Its Applications | Feller | The probability foundation almost everything in ML is quietly built on | ✅ |
-| Elements of Information Theory | Cover, Thomas | Entropy, channel capacity, compression — the actual mathematical meaning of "information" | 🆕 |
-| Convex Optimization | Boyd, Vandenberghe | The math underneath every gradient-based learning algorithm | 🆕 |
+| Book | Author | Why it matters | Builds on | Status |
+|---|---|---|---|---|
+| Introduction to Linear Algebra | Strang | Geometric intuition for the linear algebra every model is built on | — | ✅ |
+| Linear Algebra Done Right | Axler | Proof-based treatment — forces first-principles understanding over "just compute it" | Strang | ✅ |
+| Calculus (proof-based) | Spivak | Rigor and proof technique, not just computation — trains the muscle for reading papers | — | ✅ |
+| Principles of Mathematical Analysis | Rudin | Real analysis rigor — the discipline behind convergence, limits, and optimization guarantees | Spivak | ✅ |
+| An Introduction to Probability Theory and Its Applications | Feller | The probability foundation almost everything in ML is quietly built on | Spivak | ✅ |
+| Elements of Information Theory | Cover, Thomas | Entropy, channel capacity, compression — the actual mathematical meaning of "information" | Feller | 🆕 |
+| Convex Optimization | Boyd, Vandenberghe | The math underneath every gradient-based learning algorithm | Strang + Spivak | 🆕 |
+| Probability and Measure | Billingsley | Measure-theoretic probability — the real prerequisite for rigorous stochastic calculus; bridges Feller-level probability up to Shreve (see the quant table below). Durrett's free *Probability: Theory and Examples* is a solid alternative | Rudin + Feller | 🆕 |
 
 ### Computation & Complexity
-| Book | Author | Why it matters | Status |
-|---|---|---|---|
-| Introduction to Algorithms | Cormen, Leiserson, Rivest, Stein | Algorithmic reasoning and complexity analysis as a default lens | ✅ |
-| Introduction to the Theory of Computation | Sipser | Computability and complexity classes — what can and cannot be computed, at all, by anything | 🆕 |
-| Computer Architecture: A Quantitative Approach | Hennessy, Patterson | What's actually happening in silicon when a model runs | ✅ |
-| Designing Data-Intensive Applications | Kleppmann | Systems thinking for running ML at real scale, not toy-notebook scale | 🆕 |
+| Book | Author | Why it matters | Builds on | Status |
+|---|---|---|---|---|
+| Introduction to Algorithms | Cormen, Leiserson, Rivest, Stein | Algorithmic reasoning and complexity analysis as a default lens | — | ✅ |
+| Introduction to the Theory of Computation | Sipser | Computability and complexity classes — what can and cannot be computed, at all, by anything | CLRS | 🆕 |
+| Computer Architecture: A Quantitative Approach | Hennessy, Patterson | What's actually happening in silicon when a model runs | — | ✅ |
+| Designing Data-Intensive Applications | Kleppmann | Systems thinking for running ML at real scale, not toy-notebook scale | CLRS + Hennessy/Patterson | 🆕 |
 
 ### Machine Learning Foundations
-| Book | Author | Why it matters | Status |
-|---|---|---|---|
-| Pattern Recognition and Machine Learning | Bishop | The Bayesian/probabilistic backbone underneath most ML methods | 🆕 |
-| The Elements of Statistical Learning | Hastie, Tibshirani, Friedman | Statistical-learning-theory foundations; free online from the authors | 🆕 |
-| Deep Learning | Goodfellow, Bengio, Courville | The standard theory reference for why deep nets work at all | 🆕 |
-| Reinforcement Learning: An Introduction | Sutton, Barto | The foundational RL text; free online from the authors | 🆕 |
-| Probabilistic Machine Learning: An Introduction | Murphy | Modern (2022) synthesis of ML as applied probability; free online | 🆕 |
-| Information Theory, Inference, and Learning Algorithms | MacKay | Ties information theory directly into inference and learning; free online | 🆕 |
+| Book | Author | Why it matters | Builds on | Status |
+|---|---|---|---|---|
+| Pattern Recognition and Machine Learning | Bishop | The Bayesian/probabilistic backbone underneath most ML methods | Strang + Feller | 🆕 |
+| The Elements of Statistical Learning | Hastie, Tibshirani, Friedman | Statistical-learning-theory foundations; free online from the authors | Feller | 🆕 |
+| Deep Learning | Goodfellow, Bengio, Courville | The standard theory reference for why deep nets work at all | Strang + Boyd/Vandenberghe + Bishop | 🆕 |
+| Reinforcement Learning: An Introduction | Sutton, Barto | The foundational RL text; free online from the authors | Feller + Bishop | 🆕 |
+| Probabilistic Machine Learning: An Introduction | Murphy | Modern (2022) synthesis of ML as applied probability; free online | Bishop | 🆕 |
+| Information Theory, Inference, and Learning Algorithms | MacKay | Ties information theory directly into inference and learning; free online | Cover/Thomas + Bishop | 🆕 |
 
 ### Thinking About Intelligence Itself
-| Book | Author | Why it matters | Status |
-|---|---|---|---|
-| Artificial Intelligence: A Modern Approach | Russell, Norvig | The canonical map of the whole field — where AGI ambitions actually sit relative to everything else | 🆕 |
-| Gödel, Escher, Bach | Hofstadter | Self-reference, formal systems, and what "understanding" might even mean | 🆕 |
-| Universal Artificial Intelligence | Hutter | The closest thing to a formal mathematical theory of AGI (AIXI) | 🆕 |
-| Superintelligence: Paths, Dangers, Strategies | Bostrom | The strategic and philosophical landscape once you take AGI seriously | 🆕 |
+| Book | Author | Why it matters | Builds on | Status |
+|---|---|---|---|---|
+| Artificial Intelligence: A Modern Approach | Russell, Norvig | The canonical map of the whole field — where AGI ambitions actually sit relative to everything else | CLRS + Feller | 🆕 |
+| Gödel, Escher, Bach | Hofstadter | Self-reference, formal systems, and what "understanding" might even mean | Sipser (conceptually) | 🆕 |
+| Universal Artificial Intelligence | Hutter | The closest thing to a formal mathematical theory of AGI (AIXI) | Sipser + Cover/Thomas + Feller | 🆕 |
+| Superintelligence: Paths, Dangers, Strategies | Bostrom | The strategic and philosophical landscape once you take AGI seriously | — | 🆕 |
 
 ### Physics & First-Principles Reasoning
-| Book | Author | Why it matters | Status |
-|---|---|---|---|
-| The Feynman Lectures on Physics | Feynman, Leighton, Sands | Arguably the best model that exists of reasoning from first principles; free online (Caltech) | 🆕 |
-| Fundamentals of Physics | Halliday, Resnick | Grounding in the physical world underneath every abstraction | ✅ |
+| Book | Author | Why it matters | Builds on | Status |
+|---|---|---|---|---|
+| The Feynman Lectures on Physics | Feynman, Leighton, Sands | Arguably the best model that exists of reasoning from first principles; free online (Caltech) | Spivak | 🆕 |
+| Fundamentals of Physics | Halliday, Resnick | Grounding in the physical world underneath every abstraction | Spivak | ✅ |
 
 # 📈 Quant Trading in the AGI Era
 A reading list for effective portfolio management and building quant strategies that hold up as ML/AGI capability keeps changing the toolset. The organizing idea: models, factors, and alpha signals decay and get arbitraged away — but portfolio construction theory, the mechanics of markets, and honest risk/backtest discipline don't. None of these are in this repo yet (no finance category exists here currently) — treat it as a sourcing list.
 
-| Book | Author | Focus | Why it matters |
-|---|---|---|---|
-| Portfolio Selection | Markowitz | Portfolio theory | The origin of mean-variance optimization — the baseline every "smarter" allocation approach still gets measured against |
-| Active Portfolio Management | Grinold, Kahn | Portfolio construction | Industry-standard framework for alpha, risk models, and information ratio — how quant shops actually build portfolios |
-| Asset Management: A Systematic Approach to Factor Investing | Ang | Factor investing | Modern factor-based construction; makes the case that real diversification means factor exposure, not just asset count |
-| Risk and Asset Allocation | Meucci | Portfolio construction | Rigorous Bayesian treatment of allocation under estimation uncertainty |
-| Advances in Financial Machine Learning | López de Prado | ML in finance | The core AGI-era text — meta-labeling, purged cross-validation, and why naive ML backtests lie to you |
-| Machine Learning for Asset Managers | López de Prado | ML in finance | Shorter companion focused on denoised correlations and ML-driven portfolio construction |
-| Machine Learning in Finance: From Theory to Practice | Dixon, Halperin, Bilokon | ML in finance | Deep learning and reinforcement learning applied directly to trading and risk modeling |
-| Quantitative Trading | Chan | Strategy design | Practical, honest entry point to building and running a systematic strategy end to end |
-| Algorithmic Trading: Winning Strategies and Their Rationale | Chan | Strategy design | Concrete mean-reversion/momentum strategy patterns with the reasoning behind them |
-| Inside the Black Box | Narang | Strategy design | Clear map of a quant strategy's full life cycle — alpha, risk, execution — from a practitioner |
-| Trading and Exchanges | Harris | Market microstructure | How markets actually work mechanically — order types, liquidity, adverse selection |
-| Options, Futures, and Other Derivatives | Hull | Derivatives | The standard reference on pricing and hedging — needed for any strategy that touches options |
-| Stochastic Calculus for Finance I & II | Shreve | Derivatives math | The Itô calculus / martingale foundation underneath every derivatives-pricing model |
-| Analysis of Financial Time Series | Tsay | Econometrics | The standard applied quant toolkit for volatility clustering, autocorrelation, and regime modeling |
-| Time Series Analysis | Hamilton | Econometrics | Deeper theoretical backbone (state-space models, ARIMA/GARCH derivations) behind Tsay's applied treatment |
-| Value at Risk | Jorion | Risk management | The industry-standard VaR framework — and its well-documented failure modes |
-| Quantitative Risk Management | McNeil, Frey, Embrechts | Risk management | Rigorous academic treatment of tail risk, copulas, and extreme value theory |
-| The (Mis)Behavior of Markets | Mandelbrot | First-principles critique | Challenges the Gaussian/efficient-market assumptions baked into most of the above — a fractal, fat-tailed view of markets |
-| Fooled by Randomness | Taleb | First-principles critique | Distinguishing skill from luck in a track record — essential skepticism before trusting any backtest |
+**Builds on** points back to the Foundations tables above (by author) or to another row in this table — this list is largely an application layer on top of that math/ML reading, not an independent track.
+
+| Book | Author | Focus | Why it matters | Builds on |
+|---|---|---|---|---|
+| Portfolio Selection | Markowitz | Portfolio theory | The origin of mean-variance optimization — the baseline every "smarter" allocation approach still gets measured against | Strang |
+| Active Portfolio Management | Grinold, Kahn | Portfolio construction | Industry-standard framework for alpha, risk models, and information ratio — how quant shops actually build portfolios | Markowitz + Feller |
+| Asset Management: A Systematic Approach to Factor Investing | Ang | Factor investing | Modern factor-based construction; makes the case that real diversification means factor exposure, not just asset count | Strang + Feller |
+| Risk and Asset Allocation | Meucci | Portfolio construction | Rigorous Bayesian treatment of allocation under estimation uncertainty | Feller + Strang |
+| Advances in Financial Machine Learning | López de Prado | ML in finance | The core AGI-era text — meta-labeling, purged cross-validation, and why naive ML backtests lie to you | Bishop/ESL + Feller |
+| Machine Learning for Asset Managers | López de Prado | ML in finance | Shorter companion focused on denoised correlations and ML-driven portfolio construction | Advances in Financial ML + Markowitz |
+| Machine Learning in Finance: From Theory to Practice | Dixon, Halperin, Bilokon | ML in finance | Deep learning and reinforcement learning applied directly to trading and risk modeling | Goodfellow + Sutton/Barto |
+| Quantitative Trading | Chan | Strategy design | Practical, honest entry point to building and running a systematic strategy end to end | Feller (light) |
+| Algorithmic Trading: Winning Strategies and Their Rationale | Chan | Strategy design | Concrete mean-reversion/momentum strategy patterns with the reasoning behind them | Tsay (light) |
+| Inside the Black Box | Narang | Strategy design | Clear map of a quant strategy's full life cycle — alpha, risk, execution — from a practitioner | — |
+| Trading and Exchanges | Harris | Market microstructure | How markets actually work mechanically — order types, liquidity, adverse selection | — |
+| Options, Futures, and Other Derivatives | Hull | Derivatives | The standard reference on pricing and hedging — needed for any strategy that touches options | Spivak + Feller |
+| Stochastic Calculus for Finance I & II | Shreve | Derivatives math | The Itô calculus / martingale foundation underneath every derivatives-pricing model | Rudin + Billingsley |
+| Analysis of Financial Time Series | Tsay | Econometrics | The standard applied quant toolkit for volatility clustering, autocorrelation, and regime modeling | Feller |
+| Time Series Analysis | Hamilton | Econometrics | Deeper theoretical backbone (state-space models, ARIMA/GARCH derivations) behind Tsay's applied treatment | Strang + Feller |
+| Value at Risk | Jorion | Risk management | The industry-standard VaR framework — and its well-documented failure modes | Feller |
+| Quantitative Risk Management | McNeil, Frey, Embrechts | Risk management | Rigorous academic treatment of tail risk, copulas, and extreme value theory | Billingsley + Feller |
+| The (Mis)Behavior of Markets | Mandelbrot | First-principles critique | Challenges the Gaussian/efficient-market assumptions baked into most of the above — a fractal, fat-tailed view of markets | Feller (to see what's being challenged) |
+| Fooled by Randomness | Taleb | First-principles critique | Distinguishing skill from luck in a track record — essential skepticism before trusting any backtest | Feller (to see what's being challenged) |
 
 # Personal Recommendations
 This is the list of books that I personally recommend. These books are the ones that I use in my studies. Take note that I study Information Engineering at Universitas Gadjah Mada, where the 2021 curriculum is based on MIT curriculum (at least for the first 2 semesters).  
