@@ -7,6 +7,67 @@ I will keep updating the books based on recommendations and requests from my col
 
 Take note that this repo can disappear at ANY time due to copyright reasons.
 
+# 📋 2026 New-Edition Checklist
+Status of the main textbooks in this repo as of **July 2026** — whether a newer edition has been published since the copy stored here.
+
+**Legend:** ✅ repo copy is the latest edition · ❌ a newer edition exists · ⚠️ repo copy's edition is unlabeled — verify against the latest.
+Project/tutorial books without numbered editions (Arduino projects, hacking guides, one-off ML/Python books, etc.) are not tracked here.
+
+| Category | Book (edition in repo) | Latest edition (as of 2026) | Up to date? |
+|---|---|---|---|
+| Calculus | Stewart – Calculus: Early Transcendentals [7th ed.] | 9th ed. (2020) | ❌ |
+| Calculus | Thomas – Calculus [11th/12th/13th ed.] | 15th ed. (2023) | ❌ |
+| Calculus | Anton – Calculus Early Transcendentals [8th ed. solutions manual] | 12th ed. (2021) | ❌ |
+| Calculus | Stewart, Redlin, Watson – Precalculus: Mathematics for Calculus [7th ed.] | 8th ed. (2023) | ❌ |
+| Linear Algebra | Strang – Introduction to Linear Algebra [4th & 5th ed.] | 6th ed. (2023) | ❌ |
+| Linear Algebra | Lipschutz, Lipson – Schaum's Outline of Linear Algebra [4th ed.] | 6th ed. (2017) | ❌ |
+| Discrete Mathematics | Rosen – Discrete Mathematics and Its Applications [8th ed.] | 9th ed. (2025) | ❌ |
+| Differential Equations | Edwards, Penney, Calvis – Differential Equations and Boundary Value Problems [6th ed.] | 6th ed. | ✅ |
+| Differential Equations | Bronson, Costa – Schaum's Outline of Differential Equations [3rd ed.] | 4th ed. (2014) | ❌ |
+| Differential Equations | Simmons – Differential Equations with Applications [3rd ed.] | 3rd ed. | ✅ |
+| Differential Equations | Strauss – Partial Differential Equations [2nd ed.] | 2nd ed. | ✅ |
+| Engineering Mathematics | Kreyszig – Advanced Engineering Mathematics [10th ed.] | 10th ed. | ✅ |
+| Engineering Mathematics | Bird – Basic Engineering Mathematics [5th ed.] | 8th ed. (2021) | ❌ |
+| Engineering Mathematics | Bird – Higher Engineering Mathematics [6th ed.] | 9th ed. (2021) | ❌ |
+| Probability & Statistics | Walpole, Myers – Probability and Statistics for Engineers and Scientists [9th ed.] | 9th ed. | ✅ |
+| Probability & Statistics | Montgomery, Runger – Applied Statistics and Probability for Engineers [3rd ed.] | 7th ed. (2018) | ❌ |
+| Probability & Statistics | Hogg – Probability and Statistical Inference [ed. unlabeled] | 10th ed. (2019) | ⚠️ |
+| Probability & Statistics | Yates – Probability and Stochastic Processes [2nd ed.] | 3rd ed. (2014) | ❌ |
+| Probability & Statistics | Ghahramani – Fundamentals of Probability with Stochastic Processes [3rd ed.] | 4th ed. (2018) | ❌ |
+| Probability & Statistics | Spiegel et al. – Schaum's Outline of Probability and Statistics [4th ed.] | 4th ed. | ✅ |
+| Complex Variable Analysis | Brown, Churchill – Complex Variables and Applications [9th ed.] | 9th ed. | ✅ |
+| Complex Variable Analysis | Needham – Visual Complex Analysis [1st ed.] | 25th Anniversary ed. (2023) | ❌ |
+| Complex Variable Analysis | Rudin – Real and Complex Analysis [3rd ed.] | 3rd ed. | ✅ |
+| Physics | Halliday, Resnick, Walker – Fundamentals of Physics [10th ed.] | 12th ed. (2021) | ❌ |
+| Physics | Knight – Physics for Scientists and Engineers [2nd ed.] | 5th ed. (2022) | ❌ |
+| Physics | Serway, Jewett – Physics for Scientists and Engineers [9th ed.] | 10th ed. (2019) | ❌ |
+| Physics | Hecht – Schaum's Outline of College Physics [12th ed.] | 12th ed. | ✅ |
+| Physics | OpenStax – University Physics | continuously updated online | ✅ |
+| Numerical Methods | Chapra, Canale – Numerical Methods for Engineers [7th ed.] | 8th ed. (2021) | ❌ |
+| Numerical Methods | Hoffman – Numerical Methods for Engineers and Scientists [2nd ed.] | 2nd ed. | ✅ |
+| DC Circuits Analysis | Alexander, Sadiku – Fundamentals of Electric Circuits [4th ed.] | 7th ed. (2020) | ❌ |
+| Basic Electronics | Floyd, Buchla – Electronics Fundamentals [8th ed.] | 8th ed. | ✅ |
+| Electronic Communications | Roddy, Coolen – Electronic Communications [4th ed.] | 4th ed. | ✅ |
+| Signals & Systems | Oppenheim, Willsky, Nawab – Signals & Systems [2nd ed.] | 2nd ed. | ✅ |
+| Signals & Systems | Kamen, Heck – Fundamentals of Signals and Systems [3rd ed.] | 3rd ed. | ✅ |
+| Computer Architecture | Hennessy, Patterson – Computer Architecture: A Quantitative Approach [5th ed.] | 6th ed. (2017) | ❌ |
+| Computer Architecture | Stallings – Computer Organization and Architecture [8th ed.] | 11th ed. (2019) | ❌ |
+| Computer Architecture | Englander – The Architecture of Computer Hardware, Systems Software, and Networking [5th ed.] | 5th ed. | ✅ |
+| Computer Networking | Tanenbaum, Wetherall – Computer Networks [5th ed.] | 6th ed. (2021) | ❌ |
+| Computer Networking | Stallings – Data and Computer Communications [10th ed.] | 10th ed. | ✅ |
+| Computer Networking | Forouzan – Data Communications and Networking [ed. unlabeled] | 6th ed. (2022) | ⚠️ |
+| Computer Networking | West – CompTIA Network+ Guide to Networks [9th ed., exam N10-008] | 10th ed. (exam N10-009) | ❌ |
+| Computer Networking | Lammle – CompTIA Network+ N10-004 Study Guide | current exam is N10-009 | ❌ |
+| Data Structures & Algorithms | Cormen, Leiserson, Rivest, Stein – Introduction to Algorithms [3rd ed.] | 4th ed. (2022) | ❌ |
+| Data Structures & Algorithms | Sedgewick, Wayne – Algorithms [4th ed.] | 4th ed. | ✅ |
+| Theory of Computer Science | Mishra, Chandrasekaran – Theory of Computer Science [3rd ed.] | 3rd ed. | ✅ |
+| Programming | Deitel – C How to Program [7th ed.] | 9th ed. (2021) | ❌ |
+| Programming | Deitel – C++ How to Program [10th ed.] | 10th ed. (series continued as *C++20 for Programmers*) | ✅ |
+| Programming | Stroustrup – The C++ Programming Language [4th ed.] | 4th ed. | ✅ |
+| Programming | Matthes – Python Crash Course [2nd ed.] | 3rd ed. (2023) | ❌ |
+| Programming | Robbins – Learning Web Design [5th ed.] | 5th ed. | ✅ |
+| Data Analytics | Nelli – Python Data Analytics [2nd ed.] | 3rd ed. (2023) | ❌ |
+
 # Personal Recommendations
 This is the list of books that I personally recommend. These books are the ones that I use in my studies. Take note that I study Information Engineering at Universitas Gadjah Mada, where the 2021 curriculum is based on MIT curriculum (at least for the first 2 semesters).  
 This list is not sorted in any way. You can click on the name of the book to download it.
