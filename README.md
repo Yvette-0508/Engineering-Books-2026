@@ -99,6 +99,54 @@ Project/tutorial books without numbered editions (Arduino projects, hacking guid
 | Others | Gowers (ed.) – The Princeton Companion to Mathematics | single ed. (2008, no 2nd ed.) | ✅ |
 | Others | Sterling – Trigonometry Workbook For Dummies | single ed., no revision known | ✅ |
 
+# 🧠 Foundations for an AI Engineer in the AGI Era
+A curated reading list for an AI engineer who wants to shore up first-principles depth rather than framework-of-the-month knowledge. The bet here: specific libraries, prompting tricks, and even model architectures go stale fast — the math, computation theory, and classic texts on intelligence itself don't. If AGI does arrive, this is the kind of understanding that stays useful on the other side of it.
+
+**Status column:** ✅ already in this repo (see the table/folder above) · 🆕 recommended, not yet sourced — track down and add separately.
+
+### Mathematical Bedrock
+| Book | Author | Why it matters | Status |
+|---|---|---|---|
+| Introduction to Linear Algebra | Strang | Geometric intuition for the linear algebra every model is built on | ✅ |
+| Linear Algebra Done Right | Axler | Proof-based treatment — forces first-principles understanding over "just compute it" | ✅ |
+| Calculus (proof-based) | Spivak | Rigor and proof technique, not just computation — trains the muscle for reading papers | ✅ |
+| Principles of Mathematical Analysis | Rudin | Real analysis rigor — the discipline behind convergence, limits, and optimization guarantees | ✅ |
+| An Introduction to Probability Theory and Its Applications | Feller | The probability foundation almost everything in ML is quietly built on | ✅ |
+| Elements of Information Theory | Cover, Thomas | Entropy, channel capacity, compression — the actual mathematical meaning of "information" | 🆕 |
+| Convex Optimization | Boyd, Vandenberghe | The math underneath every gradient-based learning algorithm | 🆕 |
+
+### Computation & Complexity
+| Book | Author | Why it matters | Status |
+|---|---|---|---|
+| Introduction to Algorithms | Cormen, Leiserson, Rivest, Stein | Algorithmic reasoning and complexity analysis as a default lens | ✅ |
+| Introduction to the Theory of Computation | Sipser | Computability and complexity classes — what can and cannot be computed, at all, by anything | 🆕 |
+| Computer Architecture: A Quantitative Approach | Hennessy, Patterson | What's actually happening in silicon when a model runs | ✅ |
+| Designing Data-Intensive Applications | Kleppmann | Systems thinking for running ML at real scale, not toy-notebook scale | 🆕 |
+
+### Machine Learning Foundations
+| Book | Author | Why it matters | Status |
+|---|---|---|---|
+| Pattern Recognition and Machine Learning | Bishop | The Bayesian/probabilistic backbone underneath most ML methods | 🆕 |
+| The Elements of Statistical Learning | Hastie, Tibshirani, Friedman | Statistical-learning-theory foundations; free online from the authors | 🆕 |
+| Deep Learning | Goodfellow, Bengio, Courville | The standard theory reference for why deep nets work at all | 🆕 |
+| Reinforcement Learning: An Introduction | Sutton, Barto | The foundational RL text; free online from the authors | 🆕 |
+| Probabilistic Machine Learning: An Introduction | Murphy | Modern (2022) synthesis of ML as applied probability; free online | 🆕 |
+| Information Theory, Inference, and Learning Algorithms | MacKay | Ties information theory directly into inference and learning; free online | 🆕 |
+
+### Thinking About Intelligence Itself
+| Book | Author | Why it matters | Status |
+|---|---|---|---|
+| Artificial Intelligence: A Modern Approach | Russell, Norvig | The canonical map of the whole field — where AGI ambitions actually sit relative to everything else | 🆕 |
+| Gödel, Escher, Bach | Hofstadter | Self-reference, formal systems, and what "understanding" might even mean | 🆕 |
+| Universal Artificial Intelligence | Hutter | The closest thing to a formal mathematical theory of AGI (AIXI) | 🆕 |
+| Superintelligence: Paths, Dangers, Strategies | Bostrom | The strategic and philosophical landscape once you take AGI seriously | 🆕 |
+
+### Physics & First-Principles Reasoning
+| Book | Author | Why it matters | Status |
+|---|---|---|---|
+| The Feynman Lectures on Physics | Feynman, Leighton, Sands | Arguably the best model that exists of reasoning from first principles; free online (Caltech) | 🆕 |
+| Fundamentals of Physics | Halliday, Resnick | Grounding in the physical world underneath every abstraction | ✅ |
+
 # Personal Recommendations
 This is the list of books that I personally recommend. These books are the ones that I use in my studies. Take note that I study Information Engineering at Universitas Gadjah Mada, where the 2021 curriculum is based on MIT curriculum (at least for the first 2 semesters).  
 This list is not sorted in any way. You can click on the name of the book to download it.
