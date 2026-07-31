@@ -147,6 +147,31 @@ A curated reading list for an AI engineer who wants to shore up first-principles
 | The Feynman Lectures on Physics | Feynman, Leighton, Sands | Arguably the best model that exists of reasoning from first principles; free online (Caltech) | 🆕 |
 | Fundamentals of Physics | Halliday, Resnick | Grounding in the physical world underneath every abstraction | ✅ |
 
+# 📈 Quant Trading in the AGI Era
+A reading list for effective portfolio management and building quant strategies that hold up as ML/AGI capability keeps changing the toolset. The organizing idea: models, factors, and alpha signals decay and get arbitraged away — but portfolio construction theory, the mechanics of markets, and honest risk/backtest discipline don't. None of these are in this repo yet (no finance category exists here currently) — treat it as a sourcing list.
+
+| Book | Author | Focus | Why it matters |
+|---|---|---|---|
+| Portfolio Selection | Markowitz | Portfolio theory | The origin of mean-variance optimization — the baseline every "smarter" allocation approach still gets measured against |
+| Active Portfolio Management | Grinold, Kahn | Portfolio construction | Industry-standard framework for alpha, risk models, and information ratio — how quant shops actually build portfolios |
+| Asset Management: A Systematic Approach to Factor Investing | Ang | Factor investing | Modern factor-based construction; makes the case that real diversification means factor exposure, not just asset count |
+| Risk and Asset Allocation | Meucci | Portfolio construction | Rigorous Bayesian treatment of allocation under estimation uncertainty |
+| Advances in Financial Machine Learning | López de Prado | ML in finance | The core AGI-era text — meta-labeling, purged cross-validation, and why naive ML backtests lie to you |
+| Machine Learning for Asset Managers | López de Prado | ML in finance | Shorter companion focused on denoised correlations and ML-driven portfolio construction |
+| Machine Learning in Finance: From Theory to Practice | Dixon, Halperin, Bilokon | ML in finance | Deep learning and reinforcement learning applied directly to trading and risk modeling |
+| Quantitative Trading | Chan | Strategy design | Practical, honest entry point to building and running a systematic strategy end to end |
+| Algorithmic Trading: Winning Strategies and Their Rationale | Chan | Strategy design | Concrete mean-reversion/momentum strategy patterns with the reasoning behind them |
+| Inside the Black Box | Narang | Strategy design | Clear map of a quant strategy's full life cycle — alpha, risk, execution — from a practitioner |
+| Trading and Exchanges | Harris | Market microstructure | How markets actually work mechanically — order types, liquidity, adverse selection |
+| Options, Futures, and Other Derivatives | Hull | Derivatives | The standard reference on pricing and hedging — needed for any strategy that touches options |
+| Stochastic Calculus for Finance I & II | Shreve | Derivatives math | The Itô calculus / martingale foundation underneath every derivatives-pricing model |
+| Analysis of Financial Time Series | Tsay | Econometrics | The standard applied quant toolkit for volatility clustering, autocorrelation, and regime modeling |
+| Time Series Analysis | Hamilton | Econometrics | Deeper theoretical backbone (state-space models, ARIMA/GARCH derivations) behind Tsay's applied treatment |
+| Value at Risk | Jorion | Risk management | The industry-standard VaR framework — and its well-documented failure modes |
+| Quantitative Risk Management | McNeil, Frey, Embrechts | Risk management | Rigorous academic treatment of tail risk, copulas, and extreme value theory |
+| The (Mis)Behavior of Markets | Mandelbrot | First-principles critique | Challenges the Gaussian/efficient-market assumptions baked into most of the above — a fractal, fat-tailed view of markets |
+| Fooled by Randomness | Taleb | First-principles critique | Distinguishing skill from luck in a track record — essential skepticism before trusting any backtest |
+
 # Personal Recommendations
 This is the list of books that I personally recommend. These books are the ones that I use in my studies. Take note that I study Information Engineering at Universitas Gadjah Mada, where the 2021 curriculum is based on MIT curriculum (at least for the first 2 semesters).  
 This list is not sorted in any way. You can click on the name of the book to download it.
