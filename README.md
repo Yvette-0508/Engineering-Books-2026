@@ -68,6 +68,37 @@ Project/tutorial books without numbered editions (Arduino projects, hacking guid
 | Programming | Robbins – Learning Web Design [5th ed.] | 5th ed. | ✅ |
 | Data Analytics | Nelli – Python Data Analytics [2nd ed.] | 3rd ed. (2023) | ❌ |
 
+## Added from Math-Books-2026 (July 2026)
+25 pure-math titles pulled in from [Yvette-0508/Math-Books-2026](https://github.com/Yvette-0508/Math-Books-2026) — matching titles filed into their existing category folder, the rest into `Others`.
+
+| Category | Book (edition in repo) | Latest edition (as of 2026) | Up to date? |
+|---|---|---|---|
+| Calculus | Spivak – Calculus (`Calculus - Michael Spivak.pdf`) | 4th ed. (2008, Publish or Perish) | ⚠️ |
+| Calculus | Spivak – Calculus (`Calculus by Michael Spivak.pdf`, likely earlier scan) | 4th ed. (2008, Publish or Perish) | ⚠️ |
+| Calculus | Calculus Essentials For Dummies | single ed., no revision known | ✅ |
+| Calculus | Calculus II For Dummies | single ed., no revision known | ✅ |
+| Calculus | Calculus Practice Problems For Dummies | single ed., no revision known | ✅ |
+| Calculus | Thompson/Gardner – Calculus Made Easy | last revised 1998 | ✅ |
+| Calculus | Banner – The Calculus Lifesaver | single ed. (2007) | ✅ |
+| Linear Algebra | Axler – Linear Algebra Done Right | 4th ed. (2024, Springer, open access) | ⚠️ |
+| Probability & Statistics | Feller – An Introduction to Probability Theory and Its Applications, Vol. 1 | 3rd ed. (1968, still latest) | ⚠️ |
+| Probability & Statistics | Introductory Statistics [10th ed.] (Mann or Weiss — author unclear from filename) | 10th ed. is current for both authors | ⚠️ |
+| Others | Enderton – A Mathematical Introduction to Logic [2nd ed.] | 2nd ed. (2000, still latest) | ✅ |
+| Others | A Mathematical Introduction to Mathematical Logic (author/edition unclear from filename) | unverified | ⚠️ |
+| Others | Abstract Algebra (author/edition unclear from filename) | unverified | ⚠️ |
+| Others | Lang – Basic Mathematics | single ed., no revision known | ✅ |
+| Others | Mac Lane – Categories for the Working Mathematician | 2nd ed. (1998, still latest) | ✅ |
+| Others | Ciesielski – Classical Set Theory for Guided Independent Study | single ed. (1997) | ✅ |
+| Others | Burton – Elementary Number Theory [7th ed.] | 7th ed., still latest | ✅ |
+| Others | Jones, Jones – Elementary Number Theory | single ed. (1998) | ✅ |
+| Others | Encyclopedia of Mathematics | ongoing online reference; PDF is a static snapshot | ⚠️ |
+| Others | Simmons – Introduction to Topology and Modern Analysis | single ed. (1963) | ✅ |
+| Others | Rudin – Principles of Mathematical Analysis | 3rd ed. (1976, still latest) | ✅ |
+| Others | Technical Math For Dummies | single ed., no revision known | ✅ |
+| Others | Stillwell – The Four Pillars of Geometry | single ed. (2005) | ✅ |
+| Others | Gowers (ed.) – The Princeton Companion to Mathematics | single ed. (2008, no 2nd ed.) | ✅ |
+| Others | Sterling – Trigonometry Workbook For Dummies | single ed., no revision known | ✅ |
+
 # Personal Recommendations
 This is the list of books that I personally recommend. These books are the ones that I use in my studies. Take note that I study Information Engineering at Universitas Gadjah Mada, where the 2021 curriculum is based on MIT curriculum (at least for the first 2 semesters).  
 This list is not sorted in any way. You can click on the name of the book to download it.
